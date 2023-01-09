@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL = "https://neil-phan.github.io/"
+baseURL = "https://neil-phan.github.io"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -40,7 +40,7 @@ copyright = "© {year}"
   # twitterAuthor = "@<your handle>"
 
   # Set to true to display page title in table of contents in blog posts.
-  showPageTitleInTOC = false
+  showPageTitleInTOC = true
 
 # This disables Hugo's default syntax highlighting in favor
 # of prismjs. If you wish to use Hugo's default syntax highlighting
