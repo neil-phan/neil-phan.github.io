@@ -4,8 +4,9 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "neil phan"
 languageCode = "en-us"
-baseURL = "https://neil.place/"
+baseURL = "https://neil-phan.github.io/"
 copyright = "© {year}"
+publishDir = "docs"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
