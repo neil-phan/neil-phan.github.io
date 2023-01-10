@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on neil phan</title>
-    <link>https://neil.place/categories/</link>
+    <link>https://neil-phan.github.io/categories/</link>
     <description>Recent content in Categories on neil phan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {year}</copyright><atom:link href="https://neil.place/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year}</copyright><atom:link href="https://neil-phan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
