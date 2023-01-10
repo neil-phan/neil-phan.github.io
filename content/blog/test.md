@@ -1,13 +1,14 @@
 ---
-title: "Test"
+title: "Good Afternoon!"
 date: 2023-01-09T17:15:34-05:00
-slug: ""
-description: ""
+slug: "afternoon"
+description: "So last time."
 keywords: []
-draft: false
+draft: true
 tags: []
 math: false
 toc: false
 ---
 
-This is a test blog post.
+So last time, I switched from Jekyll to Hugo because I found it to be easier to use and developer-friendly. Plus, the themes they have are great!
+

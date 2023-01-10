@@ -22,7 +22,7 @@ publishDir = "docs"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   # twitter = "https://twitter.com/<your handle>"
-  github = "https://github.com/<your handle>"
+  github = "https://github.com/neil-phan"
   email = "mailto:hello@neil.place"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
@@ -61,6 +61,7 @@ publishDir = "docs"
   name = "about"
   title = "About"
   url = "/"
+
 
 [[menu.main]]
   identifier = "blog"
