@@ -35,10 +35,21 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/neil-phan/neil-phan.github.io"
+            href="https://github.com/neil-phan/"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">github</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="/@neilphan:matrix.org"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">matrix</p>
           </a>
         </li>
       </ul>

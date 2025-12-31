@@ -1,6 +1,6 @@
 import './global.css'
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -10,11 +10,6 @@ import { baseUrl } from './sitemap'
 const inter = Inter ({
   subsets: ['latin'],
   variable: '--font-inter',
-})
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
 })
 
 
@@ -59,7 +54,6 @@ export default function RootLayout({
       className={cx(
         'text-neutral-900 bg-neutral-50',
         inter.variable,
-        playfair.variable
       )}
     >
       <body className="font-sans antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
