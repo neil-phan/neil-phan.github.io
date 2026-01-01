@@ -79,7 +79,7 @@ export default async function Writing({ params }) {
             url: `${baseUrl}/writings/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Neil Phan',
             },
           }),
         }}
