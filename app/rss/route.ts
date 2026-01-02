@@ -1,6 +1,9 @@
 import { baseUrl } from 'app/sitemap'
 import { getWritings } from 'app/writings/utils'
 
+export const dynamic = "force-static";
+
+// rest of your code
 export async function GET() {
   let allEssays = await getWritings()
 
