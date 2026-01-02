@@ -12,6 +12,24 @@
   color: #fefefe;
 }
 
+@layer components {
+  .animation {
+    @apply
+      relative
+      w-fit
+      py-1 px-2 m-0
+      transition-all ease-in-out duration-300
+      hover:text-neutral-600
+      after:absolute after:bottom-1 after:left-2 after:right-2
+      after:h-[2px]
+      after:origin-center after:scale-x-0
+      after:bg-current
+      after:transition-all ease-in-out after:duration-300
+      hover:after:scale-x-100
+      hover:after:bg-neutral-600;
+  }
+}
+
 :root {
   --sh-class: #2d5e9d;
   --sh-identifier: #354150;
@@ -38,6 +56,22 @@
 
 html {
   min-width: 360px;
+}
+
+.inline-note {
+  @apply
+    text-[0.55em]
+    tracking-wider
+    mr-[0.40em]
+    relative;
+  top: -0.6em;
+}
+
+.fancy-underline {
+  @apply 
+    underline
+    transition-all ease-in-out duration-300
+    hover:text-neutral-600;
 }
 
 .prose .anchor {

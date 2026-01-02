@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Art',
-  description: 'So cool!',
+  title: 'art',
+  description: 'so cool graphicz!',
 }
 
 export default function Page() {

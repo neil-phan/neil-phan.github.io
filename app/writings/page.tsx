@@ -1,7 +1,7 @@
 import { Writings } from 'app/components/posts'
 
 export const metadata = {
-  title: 'Writings',
+  title: 'writings',
   description: 'My random, semi-filtered thoughts.',
 }
 

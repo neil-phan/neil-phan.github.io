@@ -16,15 +16,15 @@ const inter = Inter ({
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Neil Phan',
-    template: 'Neil Phan / %s',
+    default: 'neil phan',
+    template: 'neil phan / %s',
   },
-  description: 'Neil\'s pondering.',
+  description: 'neil\'s thoughts',
   openGraph: {
-    title: 'Neil Phan',
-    description: 'This is a place.',
+    title: 'neil phan',
+    description: 'neil\'s thoughts',
     url: baseUrl,
-    siteName: 'Neil Phan',
+    siteName: 'neil phan',
     locale: 'en_US',
     type: 'website',
   },
@@ -52,11 +52,11 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-neutral-900 bg-neutral-50',
+        'text-neutral-900 bg-neutral-150',
         inter.variable,
       )}
     >
-      <body className="font-sans antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="font-sans antialiased max-w-xl mx-4 mt-8 mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
