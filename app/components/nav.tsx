@@ -2,9 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const navItems = {
-  '/art': {
-    name: 'art',
-  },
   '/bookshelf': {
     name: 'bookshelf',
   },
