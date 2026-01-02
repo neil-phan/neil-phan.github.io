@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <rss version="2.0">
+    <channel>
+        <title>neil phan</title>
+        <link>https://neil.place</link>
+        <description>wandering through the mind</description>
+        <item>
+          <title>Embracing Vim: The Unsung Hero of Code Editors</title>
+          <link>https://neil.place/writings/vim</link>
+          <description>Discover why Vim, with its steep learning curve, remains a beloved tool among developers for editing code efficiently and effectively.</description>
+          <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+  </rss>
