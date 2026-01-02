@@ -5,9 +5,6 @@ const navItems = {
   '/bookshelf': {
     name: 'bookshelf',
   },
-  '/writings': {
-    name: 'writings',
-  },
 }
 
 export function Navbar() {
